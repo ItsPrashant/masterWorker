@@ -6,8 +6,9 @@ The final master program is masterV2.c and worker is worker.c.
 Series to be computed is: e^x = 1+ x + (x^2)/2! + (x^3)/3! + .........................
 
 Usage: ./masterV2 --worker_path ./worker --num_workers [validNumber] --wait_mechanism MECHANISM -x [ValueOfX] -n [ValueOfN].
-Note : It has been taken care that the max number of workers doesn't the specified number by --num_workers option.
-MECHANISM which can be use are-
+Note : It has been taken care that the maximum number of workers doesn't exceed the limit specified by --num_workers option.
+
+MECHANISM which can be used are-
   1. sequential
   2. select
   3. poll
