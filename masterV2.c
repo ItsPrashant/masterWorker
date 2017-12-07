@@ -440,7 +440,7 @@ int main(int argc,char **argv)
 			break;
 		}
 	}
-	printf("\nTotal sum of the series is: %f\n",totalSum);
+	printf("\nTotal sum of the series is: %f\n",totalSum+1);
 }
 
 double myAtof(char *str)
